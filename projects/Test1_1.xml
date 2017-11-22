@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectInfo>
+<Plugins>
+<Plugin name="IMERG">
+<Indices>IMERGIndex</Indices>
+<QC>null</QC>
+</Plugin>
+</Plugins>
+<StartDate>Tue Sep 01 00:00:00 CDT 2015</StartDate>
+<EndDate>Thu Dec 31 23:59:59 CST 2015</EndDate>
+<ProjectName>Test1_1</ProjectName>
+
+<Masking>
+<File/>
+<Resolution/>
+</Masking>
+
+<TimeZone>(GMT+0:00) Africa/Abidjan</TimeZone>
+<Clipping>false</Clipping>
+<FreezingDate>Tue Sep 01 15:45:12 CDT 1970</FreezingDate>
+<CoolingDegree>0</CoolingDegree>
+<HeatingDate>Tue Sep 01 15:45:16 CDT 1970</HeatingDate>
+<HeatingDegree>0</HeatingDegree>
+<ReSampling>BILINEAR</ReSampling>
+<PixelSize>1000</PixelSize>
+<Summaries>
+
+<Summary ID="1">AreaNameField: R_NAME; Shape File Path: C:\Users\Anas\Desktop\EASTWeb\Documentation\TestCases\ethiopia_amhara\settings\shapefiles\Woreda_new\Woreda_new.shp; AreaCodeField: R_CODE; Temporal Summary: GregorianDailyStrategy</Summary>
+</Summaries>
+<WorkingDir>C:\Users\Anas\Desktop\EASTWeb\projects</WorkingDir>
+<MasterShapeFile>C:\Users\Anas\Desktop\EASTWeb\Documentation\TestCases\ethiopia_amhara\settings\shapefiles\Woreda_new\Woreda_new.shp</MasterShapeFile>
+</ProjectInfo>
