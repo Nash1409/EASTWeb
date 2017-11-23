@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: \
+  - source: \eastweb.jar
     destination: c:\AppFolder
 hooks:
   ApplicationStop:
