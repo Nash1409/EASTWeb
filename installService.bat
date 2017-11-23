@@ -1,0 +1,1 @@
+bin\wrapper.exe -i ..\conf\ashApp.conf
