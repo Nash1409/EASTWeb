@@ -5,11 +5,11 @@ files:
     destination: c:\AppFolder
 hooks:
   ApplicationStop :
-    - location: c:\java-wrapper\stopService.bat
-    - location: c:\java-wrapper\removeService.bat
+    - location: stopService.bat
+    - location: removeService.bat
   Install :
-    - location: c:\java-wrapper\installService.bat
+    - location: installService.bat
       timeout: 180
   ApplicationStart:
-    - location: c:\java-wrapper\startService.bat
+    - location: startService.bat
       timeout: 3600
