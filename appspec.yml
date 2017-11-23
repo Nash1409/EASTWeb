@@ -6,7 +6,7 @@ files:
 hooks:
   ApplicationStop :
     - location: stopService.bat
-    - location: emoveService.bat
+    - location: removeService.bat
   Install :
     - location: installService.bat
       timeout: 180
