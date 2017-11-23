@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: /JAWTAccessBridge-32.dll
+  - source: \
     destination: c:\AppFolder
 hooks:
   ApplicationStop:
