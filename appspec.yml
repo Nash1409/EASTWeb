@@ -14,4 +14,4 @@ hooks:
       timeout: 180
   ApplicationStart:
     - location: startService.bat
-      timeout: 3600
+      timeout: 180
