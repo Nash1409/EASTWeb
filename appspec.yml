@@ -1,15 +1,17 @@
 version: 0.0
 os: windows
 files:
-  - source: /zlib_osgeo.dll
+  - source: /ReadMe.txt
     destination: c:\AppFolder
 hooks:
-  ApplicationStop :
-    - location: stopService.bat
-    - location: removeService.bat
-  Install :
-    - location: installService.bat
+  ApplicationStop:
+    - location: c:\java-wrapper\stopService.bat
+      timeout: 180
+    - location: c:\java-wrapper\removeService.bat
+      timeout: 180
+  AfterInstall:
+    - location: c:\java-wrapper\installService.bat
       timeout: 180
   ApplicationStart:
-    - location: startService.bat
+    - location: c:\java-wrapper\startService.bat
       timeout: 3600
