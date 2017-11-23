@@ -1,17 +1,17 @@
 version: 0.0
 os: windows
 files:
-  - source: /ReadMe.txt
+  - source: /JAWTAccessBridge-32.dll
     destination: c:\AppFolder
 hooks:
   ApplicationStop:
-    - location: c:\java-wrapper\stopService.bat
+    - location: stopService.bat
       timeout: 180
-    - location: c:\java-wrapper\removeService.bat
+    - location: removeService.bat
       timeout: 180
   AfterInstall:
-    - location: c:\java-wrapper\installService.bat
+    - location: installService.bat
       timeout: 180
   ApplicationStart:
-    - location: c:\java-wrapper\startService.bat
+    - location: startService.bat
       timeout: 3600
