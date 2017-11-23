@@ -1,1 +1,1 @@
-bin\wrapper.exe -p ..\conf\ashApp.conf
+bin\wrapper.exe -p C:\java-wrapper\conf\ashApp.conf
